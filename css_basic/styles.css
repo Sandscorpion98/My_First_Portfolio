@@ -1,12 +1,32 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #eee;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: red;
+}
+
+h1, h2, h3, h4 {
+
+    color: chocolate;
+    letter-spacing: 0.1em;
+
 }
 
 main {
     display: flex;
     flex-direction: row;
     flex: auto;
+}
+
+p {
+    border: 1px solid green;
+    padding: 10px;
 }
 
 article {
@@ -17,4 +37,12 @@ article {
 aside {
     flex: 1;
     overflow-y: auto;
+    background-color: aqua;
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+table, th, td{
+    border: 2px solid blue;
+    padding: 7px;
 }
